@@ -4,12 +4,34 @@ main {
 }
 
 nav {
-    background-color: aqua;
+    ul.menu {
+        list-style-type: none;
+        display: block;
+        background-color: gray;
+        padding: 10px 10px;
+        text-decoration: none;
+        width: 85px;
+        text-align: center;
+        position: sticky;
+        
+        
+    }
+    
 }
 
 h1 {
     color:black;
 }
+
+ul.properties{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 50px;
+    
+    
+}
+
+
 
 
 /* article {
