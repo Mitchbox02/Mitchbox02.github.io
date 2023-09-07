@@ -69,5 +69,22 @@ ul.properties{
 
 }
 
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-template-rows: 60px 60px 60px;
+  gap: 2px;
+  background-color: #111;
+  text-align: left;
+  text-indent: 10px;
+  text- ;
+  
+  
+  .item {
+    color: black;
+    background-color: gainsboro;
+  }
+}
+
 
 
