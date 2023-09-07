@@ -42,8 +42,32 @@ ul.properties{
     
 }
 
-figure {
- position: fixed;
- left: 30px
+
+.grid-container {
+  grid-template-columns: 300px auto 300px;
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  .item1 { 
+    margin-top: 20px;
+    margin-left: 20px ;
+  }
+  .item2 {
+    grid-area:2 / 3 / 1 / 2;
+    text-align: center;
+  }
+  .item3  {
+    margin-top: 20px;
+    margin-left: -40px;
+
+  }
+  .item6 { 
+    margin-top: -60px;
+    margin-left: -100px;
+  }
+
+
 }
+
+
 
