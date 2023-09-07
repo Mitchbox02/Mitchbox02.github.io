@@ -1,7 +1,3 @@
-main {
-    background-color: lightskyblue;
-    text-align: center;
-}
 
 nav {
     ul.menu {
@@ -42,7 +38,6 @@ ul.properties{
     
 }
 
-
 .grid-container {
   grid-template-columns: 300px auto 300px;
   display: grid;
@@ -61,11 +56,14 @@ ul.properties{
     margin-left: -40px;
 
   }
+
+  .item5{ 
+    margin-left: -200px;
+  }
   .item6 { 
     margin-top: -60px;
     margin-left: -100px;
   }
-
 
 }
 
@@ -77,14 +75,52 @@ ul.properties{
   background-color: #111;
   text-align: left;
   text-indent: 10px;
-  text- ;
+  border: solid;
   
   
   .item {
     color: black;
     background-color: gainsboro;
+    margin-top: 0%;
   }
 }
 
+table, th, td { 
+  border: 1px black;
+}
 
+.light-background {
+  background-color: lightskyblue;
+  text-align: center;
+}
 
+table{
+  width: 100%;
+  tr:nth-child(even) {
+    background-color: #de03afb9;
+  
+  }
+  tr{
+    height: 40px;
+    text-indent: 5px;
+  
+  }
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: 500px auto;
+  grid-template-rows: 60px 60px 60px;
+  gap: 2px;
+  background-color: #111;
+  text-align: left;
+  text-indent: 10px;
+  border: solid;
+  
+  
+  .item {
+    color: black;
+    background-color: gainsboro;
+    margin-top: 0%;
+  }
+}
