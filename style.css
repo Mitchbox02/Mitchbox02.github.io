@@ -42,5 +42,8 @@ ul.properties{
     
 }
 
-/* figure {float: left} */
+figure {
+ position: fixed;
+ left: 30px
+}
 
