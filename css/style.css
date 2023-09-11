@@ -100,10 +100,11 @@ ul.properties{
 
 table{
   width: 100%;
+  margin-top: 20px;
   font-family: Arial, Helvetica;
   text-align: left;
   tr:nth-child(even) {
-    background-color: #de03afb9;
+    background-color: rgb(201, 186, 197);
   
   }
   tr{
@@ -174,4 +175,23 @@ table, th, td {
 #python-url {
   color: red;
   text-decoration: none;
+}
+
+progress {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 1300px;
+  background-color: black;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 20px;
+  
+}
+
+.nbsa {
+  font-family:fantasy;
+  text-align: center;
+  color: red;
 }
