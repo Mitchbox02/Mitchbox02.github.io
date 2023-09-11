@@ -92,17 +92,16 @@ ul.properties{
   }
 }
 
-table, th, td { 
-  border: 1px black;
-}
 
 .light-background {
-  background-color: lightskyblue;
+  background-image: linear-gradient(lightskyblue, blue);
   text-align: center;
 }
 
 table{
   width: 100%;
+  font-family: Arial, Helvetica;
+  text-align: left;
   tr:nth-child(even) {
     background-color: #de03afb9;
   
@@ -112,6 +111,15 @@ table{
     text-indent: 5px;
   
   }
+
+  th{
+    width: 20px;
+  }
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
 
 .grid-container3 {
@@ -138,4 +146,32 @@ table{
   margin-right: auto;
   width: 35%;
   margin-top: 20px;
+}
+
+.paragraaf1 {
+  margin: 50px 100px;
+  padding: 5px;
+  border: 5px solid grey;
+  width: 200px;
+  font-size: 20px;
+  font-family: fantasy;
+  text-shadow: 1px 1px green;
+
+}
+
+.paragraaf2 {
+  margin: -140px 100px;
+  padding: 5px;
+  border: 5px solid grey;
+  width: 320px;
+  float: right;
+  text-shadow: 1px 1px blue ;
+  color: black;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+#python-url {
+  color: red;
+  text-decoration: none;
 }
