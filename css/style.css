@@ -38,11 +38,12 @@ ul.properties{
     
 }
 
-.grid-container {
+.grid-container-profile {
   grid-template-columns: 300px auto 300px;
   display: grid;
   column-gap: 50px;
   row-gap: 50px;
+
   .item1 { 
     margin-top: 20px;
     margin-left: 20px ;
@@ -77,28 +78,22 @@ ul.properties{
 
 }
 
-.grid-container2 {
+.grid-container-faq {
+  grid-template-columns: auto auto;
   display: grid;
-  grid-template-columns: 500px auto;
-  grid-template-rows: 60px 60px 60px;
-  gap: 2px;
-  background-color: #111;
-  text-align: left;
-  text-indent: 10px;
-  border: solid;
-  
-  
-  .item {
-    color: black;
-    background-color: gainsboro;
-    margin-top: 0%;
-  }
-}
-
-
-.light-background {
-  background-image: linear-gradient(lightskyblue, blue);
+  row-gap: 100px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 70px;
+
+  .item1, .item2, .item3, .item4, .item5 {
+    width: 500px;
+    border: 1px solid #555  ;
+    margin-left: 110px;
+    padding: 5px;
+    background-color: rgb(218, 216, 216);
+
+}
 }
 
 table{
@@ -157,7 +152,7 @@ table, th, td {
   font-family: fantasy;
 }
 
-#python-url {
+.link {
   color:  #0000EE;
   text-decoration: none;
 }
@@ -202,7 +197,7 @@ progress {
   margin-left: -30px;
 }
 
-.grid-container3 {
+.grid-container-blog {
   grid-template-columns: auto auto;
   display: grid;
   row-gap: 100px;
