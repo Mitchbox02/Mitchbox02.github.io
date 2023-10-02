@@ -18,6 +18,56 @@
         <li><a href="resources/faq.html">FAQ</a></li>
       </ul>
     </nav>
+    <aside>
+      <ul class="asidemenu">
+        <li>
+          <a
+            href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf"
+            target="_blank"
+            >Course and Examination Regulations</a
+          >
+        </li>
+        <li>
+          <a href="https://hz.nl/opleidingen/hbo-ict-deeltijd" target="_blank"
+            >Implementation Regulations</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937"
+            target="_blank"
+            >Notion</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://teams.microsoft.com/_?culture=en-us&country=us#/school/teams-grid/General?ctx=teamsGrid"
+            target="_blank"
+            >Teams</a
+          >
+        </li>
+        <li><a href="https://portal.hz.nl/" target="_blank">MyHZ</a></li>
+        <li>
+          <a href="https://github.com/HZ-HBO-ICT" target="_blank">Github</a>
+        </li>
+      </ul>
+    </aside>
+
+    <div class="content">
+      <button id="menu-toggle">Links</button>
+    </div>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const aside = document.querySelector("aside");
+      const content = document.querySelector(".content");
+
+      menuToggle.addEventListener("click", () => {
+        aside.classList.toggle("collapsed");
+        content.classList.toggle("collapsed");
+      });
+    </script>
+
     <div class="hz">
       <a href="https://hz.nl/en/" target="_blank" title="Ga naar de HZ site">
         <img src="images/hz.png" alt="hz unitversity of applied sciences" />
